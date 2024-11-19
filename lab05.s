@@ -67,6 +67,11 @@ taken:
 # ----------------------------------------------------------------------------------------
 # TODO: Add an example where an instruction passes its result to the 2nd following instruction
 # There should be no stalls
+
+
+
+
+
 # ----------------------------------------------------------------------------------------
     # nop instructions added between examples
     add  zero, zero, zero  
@@ -78,6 +83,11 @@ taken:
 # A double hazzard is when the source register of an instruction matches the destination
 #  registers of both of the two instructions preceeding it. It should get the newest value.
 # There should be no stalls
+
+
+
+
+
 # ----------------------------------------------------------------------------------------
     # nop instructions added between examples
     add  zero, zero, zero  
@@ -87,6 +97,11 @@ taken:
 # ----------------------------------------------------------------------------------------
 # TODO: Add an example with a load stalling for 1 cycle to pass a value to a NOT-TAKEN branch 
 #  Is this a data hazard or a control hazard?
+
+
+
+
+
 # ----------------------------------------------------------------------------------------
     # nop instructions added between examples
     add  zero, zero, zero  
@@ -95,6 +110,10 @@ taken:
 
 # ----------------------------------------------------------------------------------------
 # TODO: Add an example with taken branch to a label which is immediately following the branch
+
+
+
+
 # ----------------------------------------------------------------------------------------
 
 
